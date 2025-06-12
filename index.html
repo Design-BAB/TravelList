@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+    <link rel="stylesheet" href="/static/sakura.css">
+  </head>
+  <body>
+    <center>
+    <h1>☁️ Your travel checklist!</h1>
+    <form hx-get="/createCheckList" hx-target="#theCheckList" hx-swap="innerHTML" hx-trigger="load">
+        <div id="theCheckList" style="margin-top:20px;">
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+    </center>
+  </body>
+</html>
