@@ -58,6 +58,8 @@ func main() {
       w.Write([]byte(`
           <input type="checkbox" id="1" name="1" value="Passport">
           <label for="1"> Passport</label><br>
+          <input type="checkbox" id="2" name="2" value="Sunscreen">
+          <label for="1"> Sunscreen</label><br>
         `)) 
     })
 
